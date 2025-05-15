@@ -9,7 +9,7 @@ import os
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 
 # Load model
-model = tf.keras.models.load_model('D:/MGC/notebooks/genre_classifier_model.h5')
+model = tf.keras.models.load_model('notebooks/genre_classifier_model.h5')
 
 # Genre labels (adjust based on your actual model classes)
 genre_labels = ['classical', 'country', 'disco', 'hiphop', 'jazz', 'metal', 'pop', 'reggae', 'rock']
