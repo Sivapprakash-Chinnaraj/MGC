@@ -9,3 +9,4 @@ tqdm
 jupyter
 tensorflow
 seaborn
+streamlit
